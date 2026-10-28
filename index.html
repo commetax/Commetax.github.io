@@ -2,98 +2,83 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#050911">
-  <meta name="description" content="Commetax — um espaço para grandes ideias, pessoas e projetos.">
-  <title>Commetax — Ideias. Pessoas. Projetos. Futuro.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07050d">
+  <meta name="description" content="Commetax — O jogo é só o começo. Gameplays, Minecraft, Roblox e muito mais.">
+  <title>Commetax — O jogo é só o começo</title>
+  <link rel="icon" href="logo-commetax.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
   <header class="topbar">
-    <a class="logo" href="#inicio" aria-label="Commetax início">Comme<span>tax</span></a>
+    <a class="brand" href="#inicio" aria-label="Commetax, início">
+      <span class="brand-mark">C<span>X</span></span><span class="brand-name">COMME<span>TAX</span></span>
+    </a>
     <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
     <nav class="nav" id="nav">
-      <a href="#inicio" class="active">Início</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#recursos">Recursos</a>
-      <a href="#projetos">Projetos</a>
-      <a href="https://www.instagram.com/commetax.ofc/" target="_blank" rel="noopener noreferrer">Contato</a>
+      <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#jogos">Jogos</a><a href="#videos">Vídeos</a>
     </nav>
-    <a class="button button-small" href="https://www.instagram.com/commetax.ofc/">Começar</a>
+    <a class="top-cta" href="#videos">Explorar <span>↗</span></a>
   </header>
 
   <main>
     <section class="hero" id="inicio">
-      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-grid"></div>
       <div class="hero-content">
-        <p class="eyebrow">IDEIAS <b>›</b> PROJETOS <b>›</b> REALIDADE</p>
-        <h1>Commeta<span>x</span></h1>
-        <h2>Um espaço para grandes ideias.<br> E para tudo o que ainda vamos construir.</h2>
-        <p class="intro">O Commetax é um projeto em constante evolução. Aqui, queremos conectar pessoas, ideias e oportunidades. Seja bem-vindo(a) ao nosso universo.</p>
-        <div class="actions">
-          <a class="button" href="#recursos">Explorar <span aria-hidden="true">→</span></a>
-          <a class="button button-outline" href="#sobre">Saiba mais</a>
+        <div class="status"><span class="pulse"></span> UNIVERSO COMMETAX <span class="status-line"></span></div>
+        <div class="hero-logo" aria-label="Commetax">
+          <div class="logo-symbol">C<span>X</span></div>
+          <div class="logo-word">COMME<span>TAX</span></div>
         </div>
+        <p class="tagline">O JOGO É <span>SÓ O COMEÇO.</span></p>
+        <p class="hero-copy">Um canal. Vários jogos. Infinitas possibilidades.<br>Gameplays, descobertas e momentos que merecem ser compartilhados.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#jogos">ENTRAR NO UNIVERSO <span>→</span></a>
+          <a class="btn btn-ghost" href="#sobre">CONHEÇA A COMMETAX</a>
+        </div>
+        <div class="hero-meta"><span><i></i> MINECRAFT</span><span><i></i> ROBLOX</span><span><i></i> E MUITO MAIS</span></div>
       </div>
-      <blockquote class="hero-quote">Grandes conquistas começam<br>com uma simples ideia.<small>— Commetax</small></blockquote>
+      <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+      <div class="hero-x">X</div>
+      <div class="scroll-hint"><span></span> ROLE PARA EXPLORAR</div>
     </section>
 
-    <section class="section features" id="recursos">
-      <p class="eyebrow centered">O QUE NOS MOVE</p>
-      <h2 class="section-title">Mais do que um projeto,<br><span>uma visão de futuro.</span></h2>
-      <p class="section-copy">O Commetax nasce da vontade de criar algo diferente. Um ambiente onde a criatividade, a tecnologia e as pessoas se encontram.</p>
-      <div class="feature-grid">
-        <article class="feature-card"><div class="icon">♧</div><h3>Conexão</h3><p>Pessoas com os mesmos objetivos, em um só lugar.</p></article>
-        <article class="feature-card"><div class="icon">♧</div><h3>Criatividade</h3><p>Ideias que se transformam em soluções reais.</p></article>
-        <article class="feature-card"><div class="icon">↗</div><h3>Projetos</h3><p>Do planejamento à execução, juntos.</p></article>
-        <article class="feature-card"><div class="icon">⬡</div><h3>Segurança</h3><p>Suas ideias e seus dados sempre protegidos.</p></article>
-        <article class="feature-card"><div class="icon">☆</div><h3>Evolução</h3><p>Porque o melhor ainda está por vir.</p></article>
-      </div>
-    </section>
-
-    <section class="section about" id="sobre">
-      <div class="workspace-image" role="img" aria-label="Ambiente de trabalho moderno com notebook e vista para a cidade">
-        <div class="laptop-mark">X</div>
-        <div class="desk-caption">IDEIAS. PESSOAS. PROJETOS.</div>
-      </div>
-      <div class="about-text">
-        <p class="eyebrow">SOBRE O COMMETAX</p>
-        <h2>Construindo o hoje,<br><span>para um amanhã melhor.</span></h2>
-        <p>O Commetax é um projeto em construção, criado para explorar ideias, conectar pessoas e desenvolver soluções que façam a diferença. Aqui, não há limites para o que podemos imaginar.</p>
-        <a class="button button-outline" href="#projetos">Conheça mais <span aria-hidden="true">→</span></a>
+    <section class="intro section" id="sobre">
+      <div class="section-label"><span>01</span> / SOBRE A COMMETAX</div>
+      <div class="intro-layout">
+        <h2>O próximo momento épico pode começar <span>agora.</span></h2>
+        <div class="intro-text"><p>A Commetax é um canal para quem curte explorar jogos, viver partidas imprevisíveis e compartilhar boas histórias. A ideia é simples: jogar, comentar de um jeito natural e se divertir junto com quem está assistindo.</p><p>De Minecraft a Roblox e outros jogos, cada vídeo é uma nova oportunidade de descobrir algo diferente.</p><a class="text-link" href="#jogos">DESCUBRA OS JOGOS <span>↗</span></a></div>
       </div>
     </section>
 
-    <section class="section projects" id="projetos">
-      <p class="eyebrow centered">O PRÓXIMO CAPÍTULO</p>
-      <h2 class="section-title">Toda grande ideia começa em algum lugar.</h2>
-      <p class="section-copy">Este é apenas o começo. Em breve, mais novidades sobre o universo Commetax.</p>
-      <div class="project-panel"><span class="status-dot"></span><div><strong>Commetax está em construção</strong><p>Estamos preparando o próximo passo. Volte em breve para descobrir novidades.</p></div><span class="soon">EM BREVE</span></div>
+    <section class="games section" id="jogos">
+      <div class="section-label"><span>02</span> / UNIVERSO GAMER</div>
+      <div class="section-heading"><div><h2>VÁRIOS JOGOS.<br><span>UMA SÓ COMUNIDADE.</span></h2></div><p>O jogo muda. A aventura continua.</p></div>
+      <div class="game-grid">
+        <article class="game-card minecraft"><div class="game-number">GAME 001</div><div class="game-art pixel-art" aria-hidden="true"><span class="pixel-cube"></span><span class="pixel-spark">✦</span></div><div class="game-info"><span class="game-type">CONSTRUIR · EXPLORAR</span><h3>Minecraft</h3><p>Mundos para criar, lugares para descobrir e desafios para encarar.</p><span class="card-arrow">↗</span></div></article>
+        <article class="game-card roblox"><div class="game-number">GAME 002</div><div class="game-art roblox-art" aria-hidden="true"><span class="roblox-diamond"></span><span class="art-ring"></span></div><div class="game-info"><span class="game-type">JOGAR · CRIAR · DESCOBRIR</span><h3>Roblox</h3><p>Experiências diferentes, partidas inesperadas e muita diversão.</p><span class="card-arrow">↗</span></div></article>
+        <article class="game-card more"><div class="game-number">GAME 003+</div><div class="game-art more-art" aria-hidden="true"><span>+</span><div class="mini-stars">✦　✧　✦</div></div><div class="game-info"><span class="game-type">NOVAS AVENTURAS</span><h3>E muito mais</h3><p>Novos jogos e novas histórias entram no universo Commetax.</p><span class="card-arrow">↗</span></div></article>
+      </div>
     </section>
 
-    <section class="section contact" id="contato">
-      <p class="eyebrow centered">VAMOS CONVERSAR?</p>
-      <h2 class="section-title">Uma ideia começa com uma conversa.</h2>
-      <p class="section-copy">Tem uma sugestão para o Commetax? Você pode preparar seu contato por e-mail.</p>
-      <a
-  class="button"
-  href="https://www.instagram.com/commetax.ofc/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Fale conosco no Instagram
-  <span aria-hidden="true">→</span>
-</a>
-      <p class="note">O endereço de e-mail acima é ilustrativo; configure um e-mail real antes de divulgar o site.</p>
+    <section class="videos section" id="videos">
+      <div class="section-label"><span>03</span> / CONTEÚDO</div>
+      <div class="video-panel">
+        <div class="video-orb"></div><div class="video-copy"><span class="eyebrow">PRÓXIMA PARADA</span><h2>SEU PRÓXIMO<br><span>VÍDEO FAVORITO.</span></h2><p>As gameplays completas e os melhores momentos estarão aqui. Enquanto isso, acompanhe a chegada dos primeiros vídeos no YouTube.</p><a class="btn btn-primary" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">VISITAR O YOUTUBE <span>↗</span></a><small>Substitua o link pelo canal oficial quando ele estiver criado.</small></div>
+        <div class="play-button" aria-hidden="true">▶</div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="cta-sparks">✦　✧　✦</div><p>O UNIVERSO ESTÁ SÓ COMEÇANDO</p><h2>ENTRE NO JOGO.<br><span>FAÇA PARTE DA HISTÓRIA.</span></h2><a href="#inicio" class="btn btn-ghost">VOLTAR AO TOPO ↑</a>
     </section>
   </main>
 
-  <footer class="footer" id="footer">
-    <a class="logo" href="#inicio">Comme<span>tax</span></a>
-    <p>Ideias. Pessoas. Projetos. Futuro.</p>
-    <div class="footer-links"><a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#recursos">Recursos</a><a href="#projetos">Projetos</a><a href="https://www.instagram.com/commetax.ofc/" target="_blank" rel="noopener noreferrer">Contato</a></div>
-    <small>© <span id="year"></span> Commetax. Todos os direitos reservados.</small>
-  </footer>
+  <footer class="footer"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">C<span>X</span></span><span class="brand-name">COMME<span>TAX</span></span></a><p>O jogo é só o começo.</p><div class="footer-links"><a href="#sobre">Sobre</a><a href="#jogos">Jogos</a><a href="#videos">Vídeos</a></div><small>© <span id="year"></span> Commetax. Feito para quem vive o jogo.</small></footer>
   <script src="script.js"></script>
 </body>
 </html>
